@@ -1,0 +1,26 @@
+.bg-red-custom {
+    background-color: #f72210;
+}
+
+.page-logo {
+    width: 90%;
+    fill: #fff;
+}
+
+.menu-icons i {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.btn-subscription button {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: .175rem .75rem;
+    border-radius: 1rem;
+    background-color: #ffe400;
+}
+
+.btn-subscription button i {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
