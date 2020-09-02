@@ -60,3 +60,12 @@
         font-size: 2rem;
     }
 }
+
+
+/*NAVBAR 992px VP */
+
+@media (min-width: 992px) {
+    .page-logo {
+        width: 160%;
+    }
+}
