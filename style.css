@@ -1,9 +1,17 @@
+/*STYLE SHEET */
+
+
+/*-----------------*/
+
+
+/* NAVIGATION BAR */
+
 .bg-red-custom {
     background-color: #f72210;
 }
 
 .page-logo {
-    width: 90%;
+    width: 92%;
     fill: #fff;
 }
 
@@ -23,4 +31,32 @@
 .btn-subscription button i {
     font-size: 0.7rem;
     font-weight: 600;
+}
+
+
+/*NAVBAR 768px VP */
+
+@media (min-width: 768px) {
+    .page-logo {
+        width: 50%;
+    }
+    .login-btn,
+    .btn-subscription button {
+        font-size: 1.1rem;
+    }
+    .login-btn {
+        border: none;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+    .btn-subscription button {
+        padding: 0rem .75rem;
+    }
+    .btn-subscription button i {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .menu-icons i {
+        font-size: 2rem;
+    }
 }
