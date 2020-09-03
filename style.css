@@ -164,6 +164,11 @@ html {
     line-height: 24px;
 }
 
+.main-title-sm {
+    font-size: 2rem;
+    line-height: 20px;
+}
+
 .text-summary {
     color: #333;
     font-size: 1.3rem;
