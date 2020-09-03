@@ -79,12 +79,16 @@ html {
 /*NAVBAR 992px VP */
 
 .location-info {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 @media (min-width: 992px) {
     .page-logo {
-        width: 165%;
+        width: 150%;
+        padding-left: 5rem;
+    }
+    .login-btn {
+        margin-right: 2rem;
     }
 }
 
