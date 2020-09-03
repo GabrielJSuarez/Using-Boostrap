@@ -140,6 +140,10 @@ html {
 
 /* TOP STORY */
 
+.top-title {
+    border: none;
+}
+
 .top-title,
 .debate-header {
     font-size: 1.5rem;
@@ -191,7 +195,7 @@ html {
 }
 
 .debate-img {
-    width: 15%;
+    width: 20%;
 }
 
 .debate-title,
@@ -237,4 +241,19 @@ html {
 
 .debate-ponent {
     color: #555;
+    text-transform: uppercase;
+}
+
+
+/*-----------------------*/
+
+
+/* OPINION SECTION */
+
+.opinion-section {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.opinion-section:last-child {
+    border: none;
 }
