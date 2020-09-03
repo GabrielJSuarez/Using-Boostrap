@@ -127,3 +127,45 @@ html {
     margin-left: -1rem;
     color: #333;
 }
+
+
+/*-------------------*/
+
+
+/* MAIN CONTENT */
+
+
+/* ---------------------*/
+
+
+/* TOP STORY */
+
+.top-title {
+    font-size: 1.5rem;
+    color: rgba(3, 3, 3, .4);
+}
+
+.story-img {
+    position: relative;
+}
+
+.story-img-caption {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.8rem;
+    color: #f72210;
+    background: rgba(255, 255, 255, .9);
+}
+
+.main-title {
+    font-size: 2.2rem;
+    line-height: 24px;
+}
+
+.text-summary {
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 18px;
+}
