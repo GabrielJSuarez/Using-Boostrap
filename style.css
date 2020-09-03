@@ -140,12 +140,9 @@ html {
 
 /* TOP STORY */
 
-.top-title {
-    border: none;
-}
-
 .top-title,
-.debate-header {
+.debate-header,
+.opinion-title {
     font-size: 1.5rem;
     color: rgba(3, 3, 3, .4);
 }
@@ -250,10 +247,36 @@ html {
 
 /* OPINION SECTION */
 
-.opinion-section {
+.opinion-title {
+    border-bottom: none;
+}
+
+.opinion-section,
+.stories-border {
     border-bottom: 1px solid #dfdfdf;
 }
 
 .opinion-section:last-child {
     border: none;
+}
+
+
+/*--------------------------------*/
+
+
+/* PANTHOM SECTION */
+
+.phanthom {
+    height: 2rem;
+    background-color: #fff;
+}
+
+
+/*----------------------------*/
+
+
+/* TOP STORIES SECTION */
+
+.top-story-title {
+    font-size: 1.5rem;
 }
