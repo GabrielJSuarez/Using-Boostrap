@@ -20,7 +20,8 @@ html {
 
 /* NAVIGATION BAR */
 
-.bg-red-custom {
+.bg-red-custom,
+.sing-up-btn {
     background-color: #f72210;
 }
 
@@ -279,4 +280,56 @@ html {
 
 .top-story-title {
     font-size: 1.5rem;
+}
+
+
+/* ------------------------- */
+
+
+/* MY TURN SECTION */
+
+.my-turn-title {
+    font-size: 1.4rem;
+    color: rgba(3, 3, 3, .5);
+}
+
+.culture-trave-caption {
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #c2d4d7;
+}
+
+
+/*---------------*/
+
+
+/* SUBSCRIBE SECTION */
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.subscribe-title {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.subscribe-input {
+    height: 3rem;
+}
+
+.subscribe-input::placeholder {
+    font-size: 1.4rem;
+    color: #555;
+    text-indent: 9px;
+    font-weight: 500;
+}
+
+.sing-up-btn {
+    font-size: 1.6rem;
+    border: none;
 }
