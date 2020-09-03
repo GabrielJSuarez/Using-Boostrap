@@ -140,7 +140,8 @@ html {
 
 /* TOP STORY */
 
-.top-title {
+.top-title,
+.debate-header {
     font-size: 1.5rem;
     color: rgba(3, 3, 3, .4);
 }
@@ -173,4 +174,67 @@ html {
     color: #333;
     font-size: 1.3rem;
     line-height: 18px;
+}
+
+
+/*------------------------------*/
+
+
+/* DEBATE SECTION */
+
+.debate-header {
+    border-bottom-width: 5px;
+}
+
+.bottom-br-gray {
+    border-bottom: 5px solid #d3d3d3;
+}
+
+.debate-img {
+    width: 15%;
+}
+
+.debate-title,
+.debate-ponent {
+    font-size: 1.4rem;
+}
+
+.vs-container {
+    position: relative;
+    z-index: 0;
+}
+
+.vs-container::before,
+.vs-container::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.vs-container::before {
+    top: calc(50% - 2px);
+}
+
+.vs-container::after {
+    top: 50%;
+}
+
+.vs-tag {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #d6d6d6;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.debate-ponent {
+    color: #555;
 }
