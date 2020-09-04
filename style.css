@@ -427,3 +427,21 @@ html {
     top: 4.2rem;
     left: 17rem;
 }
+
+/*---------------------*/
+
+/* FOOTER */
+
+.footer-logo {
+    width: 60%;
+    fill: #f72210;
+}
+
+.change-editions {
+    font-size: 1.4rem;
+    color: #666!important;
+}
+.social-media a {
+    font-size: 2rem;
+    
+}
