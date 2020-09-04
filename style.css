@@ -364,3 +364,19 @@ html {
 .business-block {
     color: #f72210;
 }
+
+
+/*------------------------*/
+
+
+/* EDITOR'S PICK */
+
+.editor-title {
+    font-size: 2rem;
+    color: #f72210;
+}
+
+.editor-subtitle {
+    font-size: 1.6rem;
+    line-height: 1;
+}
