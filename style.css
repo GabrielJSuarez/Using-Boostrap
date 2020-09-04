@@ -388,7 +388,7 @@ html {
 /* SUBSCRIPTION CONTAINER */
 
 .subscription-container {
-    height: 42rem;
+    height: 45rem;
     background-color: #fff;
 
 }
@@ -403,7 +403,7 @@ html {
 
 .subscription-text {
     z-index: 1;
-    padding-top: 15rem;
+    padding-top: 13rem;
 }
 
 .subscription-text h5,
@@ -417,15 +417,15 @@ html {
 }
 
 .img-back {
-    width: 35%;
+    width: 17rem;
     top: 3rem;
-    left: 10rem;
+    left: 25%;
 }
 
 .img-front {
-    width: 35%;
-    top: 4.2rem;
-    left: 17rem;
+    width: 17rem;
+    top: 4.5rem;
+    left: 45%;
 }
 
 /*---------------------*/
