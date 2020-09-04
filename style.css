@@ -380,3 +380,14 @@ html {
     font-size: 1.6rem;
     line-height: 1;
 }
+
+
+/*---------------------*/
+
+
+/* SUBSCRIPTION CONTAINER */
+
+.subscription-container {
+    height: 20rem;
+    background-color: #000;
+}
