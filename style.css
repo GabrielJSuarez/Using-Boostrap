@@ -388,6 +388,42 @@ html {
 /* SUBSCRIPTION CONTAINER */
 
 .subscription-container {
-    height: 20rem;
-    background-color: #000;
+    height: 42rem;
+    background-color: #fff;
+
+}
+
+.subscription-content {
+    background-color: #f4f5f6;
+}
+
+.sub-img-container {
+   z-index: 0;
+}
+
+.subscription-text {
+    z-index: 1;
+    padding-top: 15rem;
+}
+
+.subscription-text h5,
+.subscription-text p {
+    width: 90%;
+    font-size: 1.7rem;
+}
+
+.subscription-text p {
+    font-size: 1.35rem;
+}
+
+.img-back {
+    width: 35%;
+    top: 3rem;
+    left: 10rem;
+}
+
+.img-front {
+    width: 35%;
+    top: 4.2rem;
+    left: 17rem;
 }
