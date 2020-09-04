@@ -10,6 +10,12 @@ html {
     font-size: 62.5%;
 }
 
+.bg-orange {
+    background-color: #f72210!important;
+    color: #fff!important;
+    padding: 0 0.5rem!important;
+}
+
 @media (min-width: 1440px) {
     .container-large {
         width: 1440px;
