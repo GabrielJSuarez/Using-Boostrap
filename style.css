@@ -304,7 +304,12 @@ html {
 /*---------------*/
 
 
-/* SUBSCRIBE SECTION */
+/* NEWSLETTER SECTION */
+
+.newsletter-container {
+    background-color: #f4f5f6;
+    border: 1px solid #e5e5e5;
+}
 
 .logo {
     width: 3rem;
@@ -332,4 +337,24 @@ html {
 .sing-up-btn {
     font-size: 1.6rem;
     border: none;
+}
+
+
+/*-----------------*/
+
+
+/* NEWS SECTION */
+
+.news-section {
+    background-color: #fff;
+}
+
+.cover-block {
+    background-color: #f72210;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.business-block {
+    color: #f72210;
 }
