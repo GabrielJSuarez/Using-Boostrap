@@ -468,11 +468,25 @@ html {
   background-position: center center;
 }
 
-.newsletter-text {
+.newsletter-text h3 {
+  font-size: 2rem;
 }
 
-.newsletter-text h3 {
+.newsletter-text p {
+  font-size: 1.5rem;
 }
+
+@media (min-width: 768px) {
+  .newsletter-text h3 {
+    font-size: 2.5rem;
+  }
+
+  .newsletter-text p {
+    text-align: left !important;
+    font-size: 1.7rem;
+  }
+}
+
 /*---------------------*/
 
 /* FOOTER */
@@ -488,6 +502,12 @@ html {
 }
 .social-media a {
   font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-logo {
+    width: 30%;
+  }
 }
 
 /*-----------------------*/
