@@ -300,7 +300,8 @@ html {
 
 /* NEWSLETTER SECTION */
 
-.newsletter-container {
+.newsletter-container,
+.newsletter-footer {
   background-color: #f4f5f6;
 }
 
@@ -458,6 +459,20 @@ html {
   }
 }
 
+/*---------------------------*/
+
+/*NEWSLETTER */
+
+.bg-newsletter {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-position: center center;
+}
+
+.newsletter-text {
+}
+
+.newsletter-text h3 {
+}
 /*---------------------*/
 
 /* FOOTER */

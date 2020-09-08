@@ -1249,7 +1249,6 @@
                     </div>
                 </article>
             </div>
-
             <!--
             <article class=" mb-3 ">
                 <div class=" card-header text-left pl-0 bg-white mt-3 editor-title font-weight-bold ">
@@ -1676,11 +1675,12 @@
                     
                 </ul>
             </article>
+            -->
         </section>
-        -->
+        
 
         <!--SUBSCRIPTION SECTION-->
-        <section class=" subscription-container container-fluid mt-4 pt-4">
+        <section class=" subscription-container container-fluid mt-4 mt-md-0 pt-4">
                         <div class="card-header text-left pl-0 bg-white editor-title font-weight-bold ">
                             SUBSCRIBE
                         </div>
@@ -1717,32 +1717,38 @@
         </section>
 
         <!--NEWSLETTER-->
-        <section class="container-fluid card mt-5">
+        <section class="container-fluid card mt-5 mt-md-0 border-0">
             <div class="text-left pl-0 bg-white editor-title font-weight-bold my-3 pb-2">
                 NEWSLETTER
             </div>
 
-            <div class="jumbotron mx-auto newsletter-container mt-2 bg-white">
+            <div class=" mx-auto mx-md-0 newsletter-footer mt-2 bg-white border">
 
                 <div class="container-fluid ">
-                    <div class="media align-items-center ">
-                        <div class="media-body subscription-text pt-0 ">
-                            <h3 class="font-weight-bold pl-4 py-3 w-50 mx-auto">The Starting 5
-                            </h3>
+                    <div class="row">
+                        <div class="bg-newsletter col-md-3"></div>
 
-                            <p class="card-text  mx-auto text-center pb-3">See why nearly a quarter of a million
-                                subscribers begin their day with the Starting 5.</p>
+                        <div class="col-md-9">
+                            <div class="media align-items-center ">
+                                <div class="media-body newsletter-text pt-0 ">
+                                    <h3 class="font-weight-bold pl-4 py-3 w-50 mx-auto mx-md-0">The Starting 5
+                                    </h3>
+
+                                    <p class="card-text mx-auto mx-md-0 text-center pb-3 pb-md-0">See why nearly a quarter of a million
+                                        subscribers begin their day with the Starting 5.</p>
+                                </div>
+                            </div>
+
+                            <label for="email-bar" class="w-100 my-3 border">
+                                <input type="mail" name="email-bar" id="email-bar" placeholder="Email Address"
+                                    class="w-100 subscribe-input">
+                            </label>
+
+                            <button class="btn btn-primary w-100 mt-2 sing-up-btn font-weight-bold" href="#" role="button">
+                                FREE SING UP <i class=" fas fa-angle-right "></i>
+                            </button>
                         </div>
                     </div>
-
-                    <label for="email-bar" class="w-100 my-3">
-                        <input type="mail" name="email-bar" id="email-bar" placeholder="Email Address"
-                            class="w-100 subscribe-input">
-                    </label>
-
-                    <button class="btn btn-primary w-100 mt-2 sing-up-btn font-weight-bold href=" # " role="
-                        button ">FREE SING UP <i class=" fas fa-angle-right "></i></button>
-
                 </div>
             </div>
         </section>
