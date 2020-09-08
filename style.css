@@ -179,7 +179,7 @@ html {
 
 @media (min-width: 768px) {
   .featured-sticky {
-    height: 1911px;
+    height: 2021px;
   }
 }
 
@@ -385,6 +385,19 @@ html {
   line-height: 1;
 }
 
+@media (min-width: 768px) {
+  .main-title-sm {
+    font-size: 2.2rem;
+    line-height: 20px;
+  }
+
+  .text-summary {
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 18px;
+  }
+}
+
 /*---------------------*/
 
 /* SUBSCRIPTION CONTAINER */
@@ -404,7 +417,7 @@ html {
 
 .subscription-text {
   z-index: 1;
-  padding-top: 13rem;
+  padding-top: 18rem;
 }
 
 .subscription-text h5,
@@ -414,19 +427,35 @@ html {
 }
 
 .subscription-text p {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
 }
 
 .img-back {
   width: 17rem;
   top: 3rem;
-  left: 25%;
+  left: 20%;
 }
 
 .img-front {
   width: 17rem;
   top: 4.5rem;
-  left: 45%;
+  left: 40%;
+}
+
+@media (min-width: 768px) {
+  .subscription-text {
+    padding: 4rem 0;
+  }
+
+  .subscription-text h5,
+  .subscription-text p {
+    font-size: 2.2rem;
+    text-align: left !important;
+  }
+
+  .subscription-text p {
+    font-size: 1.5rem;
+  }
 }
 
 /*---------------------*/
