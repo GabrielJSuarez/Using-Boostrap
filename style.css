@@ -506,7 +506,22 @@ html {
 
 @media (min-width: 768px) {
   .footer-logo {
-    width: 30%;
+    width: 80%;
+  }
+
+  .copyright {
+    font-size: 1.6rem;
+  }
+
+  .social-media {
+    border: none !important;
+  }
+
+  .social-media a {
+    font-size: 2.5rem;
+  }
+  .change-editions {
+    border-right: 1px solid #dee2e6 !important;
   }
 }
 
