@@ -98,15 +98,15 @@
 
     <main class="">
         <div class="news-container">
-            <div class="d-flex flex-column">
-                <div class="px-0 col-md-6 order-1 order-md-0">
+            <div class="d-flex flex-column flex-md-row">
+                <div class="px-0 col-md-5 order-1 order-md-0 sticky-top featured-sticky">
                     <!--FEATURED STORIES-->
                     <section class="container bg-white border-bottom">
-                        <article class="mb-3">
-                            <div class="card-header text-left pl-0 bg-transparent top-title font-weight-bold">
+                        <div class="card-header text-left pl-0 bg-transparent top-title font-weight-bold">
                                 FEATURED STORIES
-                            </div>
+                        </div>
 
+                        <article class="mb-3">
                             <div class="story-img">
                                 <img src="https://d.newsweek.com/en/full/1631222/mcconnell.jpg?w=397&h=265&q=90&f=613d059ff3ea369ecdc91119304bd2ab"
                                     class="card-img-top story-img" alt="Joe Biden with a Mask">
@@ -197,9 +197,9 @@
                     </section>
                 </div>
 
-                <div class="px-0 order-0 col-md-6">
+                <div class="px-0 order-0 col-md-7">
                     <!--TOP STORIES-->
-                    <section class="mb-4 container bg-white border-bottom">
+                    <section class="mb-4 mb-md-0 container bg-white border-bottom">
                             <div class="card-header text-left pl-0 top-title font-weight-bold bg-white">
                                     TOP STORY
                             </div>
@@ -227,95 +227,96 @@
                     <div class="d-none d-md-block">
                         <!--MY TURN SECTION-->
                         <section class="container bg-white">
-                            <article class="mb-3">
-                                            <div class="card-header text-left pl-0 bg-white mt-3 top-title font-weight-bold">
-                                                MY TURN
-                                            </div>
+                            <div class="card-header text-left pl-0 bg-white mt-3 mt-md-0 top-title font-weight-bold">MY TURN</div>
 
-                                            <div class="story-img">
-                                                <img src="https://d.newsweek.com/en/full/1630323/gun-violence-loss-mother-son.jpg?w=397&h=397&f=a3725fd34af2d4c4ab74c4501e600c3f"
-                                                    class="card-img-top story-img" alt="Joe Biden with a Mask">
-                                            </div>
+                            <div class="row">
+                                <article class="mb-3 col-md">
+                                    <div class="story-img">
+                                        <img src="https://d.newsweek.com/en/full/1630323/gun-violence-loss-mother-son.jpg?w=397&h=397&f=a3725fd34af2d4c4ab74c4501e600c3f"class="card-img-top story-img" alt="Joe Biden with a Mask">
+                                    </div>
+                                                
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title my-turn-title font-weight-bolder mt-1">
+                                            'My Son Was Killed in a Shooting, on the First Day of His PhD Scholarship'
+                                        </h5>
+                                    </div>
+                                </article>
 
+                                <article class="mb-3 col-md">
+                                    <div class="story-img">
+                                        <img src="https://d.newsweek.com/en/full/1629403/queen-elizabeth-ii-royal-family-princess-diana.jpg?w=397&h=397&f=68daa6d945ac7d43612b9dccf249e47a" class="card-img-top story-img" alt="Joe Biden with a Mask">
+                                    </div>
 
-                                            <div class="card-body px-0">
-                                                <h5 class="card-title my-turn-title font-weight-bolder mt-1">'My Son Was Killed in a Shooting, on
-                                                    the First Day of His PhD Scholarship'</h5>
-                                            </div>
-                            </article>
+                                        <div class="card-body px-0">
+                                            <h5 class="card-title my-turn-title font-weight-bolder mt-1">'I've Made a Documentary About Queen Elizabeth II's Private Life'</h5>
+                                        </div>
+                                </article>
 
-                            <article class="mb-3">
-                                <div class="story-img">
-                                    <img src="https://d.newsweek.com/en/full/1629403/queen-elizabeth-ii-royal-family-princess-diana.jpg?w=397&h=397&f=68daa6d945ac7d43612b9dccf249e47a" class="card-img-top story-img" alt="Joe Biden with a Mask">
-                                </div>
+                                <article class="mb-3 col-md">
+                                    <div class="story-img">
+                                        <img src="https://d.newsweek.com/en/full/1627650/lat-living-apart-couples-living-apart.jpg?w=397&h=397&f=ebc64ecc345b665f733e47feaf6197a0"class="card-img-top story-img" alt="Joe Biden with a Mask">
+                                    </div>
 
                                     <div class="card-body px-0">
-                                        <h5 class="card-title my-turn-title font-weight-bolder mt-1">'I've Made a Documentary About Queen Elizabeth II's Private Life'</h5>
+                                        <h5 class="card-title my-turn-title font-weight-bolder mt-1">'My Secret to a Happy Relationship? Live Apart'</h5>
                                     </div>
-                            </article>
-
-                            <article class="mb-3">
-                                <div class="story-img">
-                                    <img src="https://d.newsweek.com/en/full/1627650/lat-living-apart-couples-living-apart.jpg?w=397&h=397&f=ebc64ecc345b665f733e47feaf6197a0"class="card-img-top story-img" alt="Joe Biden with a Mask">
-                                </div>
-
-                                <div class="card-body px-0">
-                                    <h5 class="card-title my-turn-title font-weight-bolder mt-1">'My Secret to a Happy Relationship? Live Apart'</h5>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         </section>
 
                         <!--CULTURE AND TRAVEL-->
                         <section class="container bg-white">
-                            <div class="card-header text-left pl-0 bg-white mt-3 top-title font-weight-bold border-0">
+                            <div class="card-header text-left pl-0 bg-white mt-3 mt-md-0 top-title font-weight-bold border-0">
                                 CULTURE & TRAVEL
                             </div>
 
-                            <article class="mb-3">
-                                <div class="story-img">
-                                    <img src="https://d.newsweek.com/en/full/1629368/rhinos.jpg?w=397&h=397&f=3cb0b41ecc22788d1da11563e61894b7"
-                                                    class="card-img-top story-img" alt="Joe Biden with a Mask">
-                                    <p class="story-img-caption font-weight-bold culture-trave-caption">RHINO POACHING</p>
-                                </div>
-
-                                <div class="card-body px-0">
-                                    <h5 class="card-title my-turn-title font-weight-bolder mt-1">The Last Two Northern White Rhinos—and
-                                                    The Armed Guard Who Protects Them</h5>
-                                    </div>
-                                </article>
-
-                                <article class="mb-3">
+                            <div class="row">
+                                <article class="mb-3 col-md">
                                     <div class="story-img">
-                                        <img src="https://d.newsweek.com/en/full/1629519/met.jpg?w=397&h=397&f=4264938aed771554d52d21b49e161b24"
-                                                    class="card-img-top story-img" alt="Joe Biden with a Mask">
-                                        <p class="story-img-caption font-weight-bold culture-trave-caption">MUSEUMS</p>
+                                        <img src="https://d.newsweek.com/en/full/1629368/rhinos.jpg?w=397&h=397&f=3cb0b41ecc22788d1da11563e61894b7"
+                                                        class="card-img-top story-img" alt="Joe Biden with a Mask">
+                                        <p class="story-img-caption font-weight-bold culture-trave-caption">RHINO POACHING</p>
                                     </div>
 
                                     <div class="card-body px-0">
-                                        <h5 class="card-title my-turn-title font-weight-bolder mt-1">Planning a Trip to One of NYC's
-                                                    Recently Opened Museums? What to Know</h5>
-                                    </div>
+                                        <h5 class="card-title my-turn-title font-weight-bolder mt-1">The Last Two Northern White Rhinos—and
+                                                        The Armed Guard Who Protects Them</h5>
+                                        </div>
                                 </article>
 
-                                <article class="mb-3">
-                                    <div class="story-img">
-                                        <img src="https://d.newsweek.com/en/full/1628308/kellee-edwards-vultee-bt-13-aircraft.jpg?w=397&h=397&f=415ed1209407b816f9a935d18e22c5a9"
-                                                    class="card-img-top story-img" alt="Joe Biden with a Mask">
+                                <article class="mb-3 col-md">
+                                        <div class="story-img">
+                                            <img src="https://d.newsweek.com/en/full/1629519/met.jpg?w=397&h=397&f=4264938aed771554d52d21b49e161b24"
+                                                        class="card-img-top story-img" alt="Joe Biden with a Mask">
+                                            <p class="story-img-caption font-weight-bold culture-trave-caption">MUSEUMS</p>
+                                        </div>
 
-                                        <p class="story-img-caption font-weight-bold culture-trave-caption">TRAVEL</p>
-                                    </div>
-
-                                    <div class="card-body px-0">
-                                        <h5 class="card-title my-turn-title font-weight-bolder mt-1">First Black Woman to Host Travel TV
-                                                    Show Flies in the Face of Convention</h5>
-                                    </div>
+                                        <div class="card-body px-0">
+                                            <h5 class="card-title my-turn-title font-weight-bolder mt-1">Planning a Trip to One of NYC's
+                                                        Recently Opened Museums? What to Know</h5>
+                                        </div>
                                 </article>
+
+                                <article class="mb-3 col-md">
+                                        <div class="story-img">
+                                            <img src="https://d.newsweek.com/en/full/1628308/kellee-edwards-vultee-bt-13-aircraft.jpg?w=397&h=397&f=415ed1209407b816f9a935d18e22c5a9"
+                                                        class="card-img-top story-img" alt="Joe Biden with a Mask">
+
+                                            <p class="story-img-caption font-weight-bold culture-trave-caption">TRAVEL</p>
+                                        </div>
+
+                                        <div class="card-body px-0">
+                                            <h5 class="card-title my-turn-title font-weight-bolder mt-1">First Black Woman to Host Travel TV
+                                                        Show Flies in the Face of Convention</h5>
+                                        </div>
+                                </article>
+                            </div>
                         </section>
 
                         <!--MORE STORIES SECTION-->
                         <section class="mb-4 order-1 border-bottom">
                                     <article class="bg-white container pb-3">
-                                        <div class="card-header text-left pl-0 bg-white mt-3 top-title font-weight-bold">
+                                        <div class="card-header text-left pl-0 bg-white mt-3 mt-md-0 top-title font-weight-bold">
                                             MORE STORIES
                                         </div>
 
@@ -499,9 +500,9 @@
 
             <div class="px-0">
                 <!--DEBATE SECTION-->
-                <section class="bg-white container border-bottom">
-                    <ul class="list-unstyled mt-4 pb-3">
-                        <div class="card-header text-left pl-0 bg-white mt-3 debate-header font-weight-bold">
+                <section class="bg-white container-fluid border-bottom">
+                    <ul class="list-unstyled mt-4 mt-md-n4 pb-3">
+                        <div class="card-header text-left pl-0 bg-white mt-3 mt-md-0 debate-header font-weight-bold">
                             THE DEBATE
                         </div>
 
@@ -538,8 +539,8 @@
                 </section>
 
                 <!--OPINION SECTION-->
-                <section class="bg-white container border-bottom">
-                    <ul class="list-unstyled mt-4">
+                <section class="bg-white container-fluid border-bottom">
+                    <ul class="list-unstyled mt-4 mt-md-n4">
                         <div class="card-header text-left pl-0 bg-white mt-3 opinion-title font-weight-bold">
                             OPINION
                         </div>
@@ -629,13 +630,13 @@
                 </section>
 
                 <!--Phantom Section-->
-                <section class="">
+                <section class="border-0 d-md-none">
                     <ul class="list-unstyled card mt-4 container-fluid">
                         <div class="card-header text-left pl-0 bg-white mt-3  font-weight-bold"></div>
                     </ul>
                 </section>
 
-                <div class=".d-none .d-sm-block .d-md-none">
+                <div class="d-md-none">
                     <!--MORE STORIES SECTION-->
                     <section class="mb-4 order-1 border-bottom">
                                     <article class="bg-white container pb-3">
@@ -936,171 +937,172 @@
         </div>
 
         <!--NEWS SECTION-->
-        <section class=" news-section mt-5 card ">
-                      
-            <article class=" container-fluid ">
-                <div class=" row mx-auto w-75 justify-content-center align-items-center pt-5 mb-4 ">
-                    <div class=" logo "></div>
-                    <h3 class=" font-weight-bold subscribe-title ">IN THE MAGAZINE</h3>
-                </div>
+        <section class=" news-section mt-5 mt-md-0 card"> 
+            <div class="row mx-auto w-100 justify-content-center align-items-center pt-5 mb-4 border-bottom pb-3">
+                <div class=" logo "></div>
+                <h3 class=" font-weight-bold subscribe-title ">IN THE MAGAZINE</h3>
+            </div>
 
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1631397/cover-september-11-18-2020.jpg?w=360&h=480&q=90&f=b646c7d6dd0b15651abb86ce18f2f3d2 " alt="
-                        Joe Biden with a Mask " class=" w-100 ">
-                    <p class=" story-img-caption font-weight-bold ">SEPTEMBER 18 ISSUE</p>
-                </div>
-
-                <div class=" row mx-auto w-75 font-weight-bold justify-content-center align-items-center pt-3 mb-4 ">
-                    <a href=" # " class=" subscribe-title text-dark ">SEE ALL FEATURES <i class=" fas fa-angle-right "></i></a>
-                </div>
-
-            </article>
-
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1629704/cover-pandemic-money-graphic.jpg?w=466&h=311&q=90&f=1d42d8236edf202d85663c3b4a8409e6 " class="
-                        card-img-top story-img " alt=" Joe Biden with a Mask ">
-                </div>
-
-                <div class=" row container-fluid mt-4 align-items-center ">
-                    <div class=" mr-2 cover-block ">
-                        <h4 class=" mb-0 ">COVER</h4>
+            <div class="d-flex flex-wrap"> 
+                <article class="container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1631397/cover-september-11-18-2020.jpg?w=360&h=480&q=90&f=b646c7d6dd0b15651abb86ce18f2f3d2 " alt="
+                            Joe Biden with a Mask " class=" w-100 ">
+                        <p class=" story-img-caption font-weight-bold ">SEPTEMBER 18 ISSUE</p>
                     </div>
 
-                    <div class=" ml-2 business-block ">
-                        <h4 class=" mb-0 ">BUSINESS</h4>
-                    </div>
-                </div>
-
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">How the Pandemic Will Change the Way We Manage Money Forever</h5>
-                </div>
-            </article>
-
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1629348/fea-finance-covid-banner.jpg?w=466&h=311&l=47&t=46&q=90&f=8d2ba9398fe877c7a48cac39b61c26ce " class="
-                        card-img-top story-img " alt=" Joe Biden with a Mask ">
-                </div>
-
-                <div class=" row container-fluid mt-4 align-items-center ">
-                    <div class=" mr-2 cover-block ">
-                        <h4 class=" mb-0 ">COVER</h4>
+                    <div class=" row mx-auto w-100 font-weight-bold justify-content-center align-items-center pt-3 mb-4 bg-light">
+                        <a href=" # " class=" subscribe-title text-dark ">SEE ALL FEATURES <i class=" fas fa-angle-right "></i></a>
                     </div>
 
-                    <div class=" ml-2 business-block ">
-                        <h4 class=" mb-0 ">BUSINESS</h4>
-                    </div>
-                </div>
+                </article>
 
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">Five Money Moves to Make Right Now to Overcome Your Biggest Financial Worries</h5>
-                </div>
-            </article>
-
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1629536/per-spy-masters-book-banner.jpg?w=466&h=311&l=50&t=45&q=90&f=7a9a8aa3534c56503ff81528414bb0d1 " class="
-                        card-img-top story-img " alt=" Joe Biden with a Mask ">
-                </div>
-
-                <div class=" row container-fluid mt-4 align-items-center ">
-                    <div class=" mr-2 cover-block ">
-                        <h4 class=" mb-0 ">PERISCOPE</h4>
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1629704/cover-pandemic-money-graphic.jpg?w=466&h=311&q=90&f=1d42d8236edf202d85663c3b4a8409e6 " class="
+                            card-img-top story-img " alt=" Joe Biden with a Mask ">
                     </div>
 
-                    <div class=" ml-2 business-block ">
-                        <h4 class=" mb-0 ">POLITICS</h4>
-                    </div>
-                </div>
+                    <div class=" row container-fluid mt-4 align-items-center ">
+                        <div class=" mr-2 cover-block ">
+                            <h4 class=" mb-0 ">COVER</h4>
+                        </div>
 
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">Obama Fear of Retaliation Limited Response to Russian Meddling, Book Reveal</h5>
-                </div>
-            </article>
-
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1629554/per-spy-masters-book.jpg?w=466&h=311&l=58&t=36&q=90&f=2a126a7b277ec59e6875420c37b35426 " class="
-                        card-img-top story-img " alt=" Joe Biden with a Mask ">
-                </div>
-
-                <div class=" row container-fluid mt-4 align-items-center ">
-                    <div class=" mr-2 cover-block ">
-                        <h4 class=" mb-0 ">PERISCOPE</h4>
+                        <div class=" ml-2 business-block ">
+                            <h4 class=" mb-0 ">BUSINESS</h4>
+                        </div>
                     </div>
 
-                    <div class=" ml-2 business-block ">
-                        <h4 class=" mb-0 ">CULTURE</h4>
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">How the Pandemic Will Change the Way We Manage Money Forever</h5>
                     </div>
-                </div>
+                </article>
 
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">CIA Directors are Not 'Yes-Men'</h5>
-                </div>
-            </article>
-
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1629431/cul-books-fiction-bestiary.jpg?w=466&h=311&l=44&t=57&q=90&f=c7615c7e2d020078519afdf38e987c07 " class="
-                        card-img-top story-img " alt=" Joe Biden with a Mask ">
-                </div>
-
-                <div class=" row container-fluid mt-4 align-items-center ">
-                    <div class=" mr-2 cover-block ">
-                        <h4 class=" mb-0 ">DOWNTIME</h4>
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1629348/fea-finance-covid-banner.jpg?w=466&h=311&l=47&t=46&q=90&f=8d2ba9398fe877c7a48cac39b61c26ce " class="
+                            card-img-top story-img " alt=" Joe Biden with a Mask ">
                     </div>
 
-                    <div class=" ml-2 business-block ">
-                        <h4 class=" mb-0 ">CULTURE</h4>
-                    </div>
-                </div>
+                    <div class=" row container-fluid mt-4 align-items-center ">
+                        <div class=" mr-2 cover-block ">
+                            <h4 class=" mb-0 ">COVER</h4>
+                        </div>
 
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">25 Must-Read Fall Fiction and Nonfiction Books to Escape the Chaos of 2020 </h5>
-                </div>
-            </article>
-
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1629555/cul-parting-shot-sunny-hostin.jpg?w=466&h=311&l=45&t=40&q=90&f=247110cc200acf93bbdcd60912e769eb " class="
-                        card-img-top story-img " alt=" Joe Biden with a Mask ">
-                </div>
-
-                <div class=" row container-fluid mt-4 align-items-center ">
-                    <div class=" mr-2 cover-block ">
-                        <h4 class=" mb-0 ">DOWNTIME</h4>
+                        <div class=" ml-2 business-block ">
+                            <h4 class=" mb-0 ">BUSINESS</h4>
+                        </div>
                     </div>
 
-                    <div class=" ml-2 business-block ">
-                        <h4 class=" mb-0 ">CULTURE</h4>
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">Five Money Moves to Make Right Now to Overcome Your Biggest Financial Worries</h5>
                     </div>
-                </div>
+                </article>
 
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">Sunny Hostin Is Sharing Her View in a New Memoir 'I Am These Truths'</h5>
-                </div>
-            </article>
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1629536/per-spy-masters-book-banner.jpg?w=466&h=311&l=50&t=45&q=90&f=7a9a8aa3534c56503ff81528414bb0d1 " class="
+                            card-img-top story-img " alt=" Joe Biden with a Mask ">
+                    </div>
 
-            <article class=" mb-3 container-fluid ">
-                <div class=" story-img ">
-                    <img src="
-                        https://d.newsweek.com/en/full/1631401/hands-dont-shoot.jpg?w=480&h=320&q=90&f=08bc95939622c45375571030706d9b0f " class="
-                        card-img-top story-img "  alt=" Joe Biden with a Mask ">
-                    <p class=" story-img-caption font-weight-bold bg-orange ">IN FOCUS</p>
-                </div>
+                    <div class=" row container-fluid mt-4 align-items-center ">
+                        <div class=" mr-2 cover-block ">
+                            <h4 class=" mb-0 ">PERISCOPE</h4>
+                        </div>
 
-                <div class=" card-body px-0 ">
-                    <h5 class=" card-title my-turn-title font-weight-bolder mt-1 text-body ">Hands Up, Don’t Shoot</h5>
-                </div>
-            </article>
+                        <div class=" ml-2 business-block ">
+                            <h4 class=" mb-0 ">POLITICS</h4>
+                        </div>
+                    </div>
+
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">Obama Fear of Retaliation Limited Response to Russian Meddling, Book Reveal</h5>
+                    </div>
+                </article>
+
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1629554/per-spy-masters-book.jpg?w=466&h=311&l=58&t=36&q=90&f=2a126a7b277ec59e6875420c37b35426 " class="
+                            card-img-top story-img " alt=" Joe Biden with a Mask ">
+                    </div>
+
+                    <div class=" row container-fluid mt-4 align-items-center ">
+                        <div class=" mr-2 cover-block ">
+                            <h4 class=" mb-0 ">PERISCOPE</h4>
+                        </div>
+
+                        <div class=" ml-2 business-block ">
+                            <h4 class=" mb-0 ">CULTURE</h4>
+                        </div>
+                    </div>
+
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">CIA Directors are Not 'Yes-Men'</h5>
+                    </div>
+                </article>
+
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1629431/cul-books-fiction-bestiary.jpg?w=466&h=311&l=44&t=57&q=90&f=c7615c7e2d020078519afdf38e987c07 " class="
+                            card-img-top story-img " alt=" Joe Biden with a Mask ">
+                    </div>
+
+                    <div class=" row container-fluid mt-4 align-items-center ">
+                        <div class=" mr-2 cover-block ">
+                            <h4 class=" mb-0 ">DOWNTIME</h4>
+                        </div>
+
+                        <div class=" ml-2 business-block ">
+                            <h4 class=" mb-0 ">CULTURE</h4>
+                        </div>
+                    </div>
+
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">25 Must-Read Fall Fiction and Nonfiction Books to Escape the Chaos of 2020 </h5>
+                    </div>
+                </article>
+
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1629555/cul-parting-shot-sunny-hostin.jpg?w=466&h=311&l=45&t=40&q=90&f=247110cc200acf93bbdcd60912e769eb " class="
+                            card-img-top story-img " alt=" Joe Biden with a Mask ">
+                    </div>
+
+                    <div class=" row container-fluid mt-4 align-items-center ">
+                        <div class=" mr-2 cover-block ">
+                            <h4 class=" mb-0 ">DOWNTIME</h4>
+                        </div>
+
+                        <div class=" ml-2 business-block ">
+                            <h4 class=" mb-0 ">CULTURE</h4>
+                        </div>
+                    </div>
+
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">Sunny Hostin Is Sharing Her View in a New Memoir 'I Am These Truths'</h5>
+                    </div>
+                </article>
+
+                <article class=" mb-3 container-fluid col-md-3">
+                    <div class=" story-img ">
+                        <img src="
+                            https://d.newsweek.com/en/full/1631401/hands-dont-shoot.jpg?w=480&h=320&q=90&f=08bc95939622c45375571030706d9b0f " class="
+                            card-img-top story-img "  alt=" Joe Biden with a Mask ">
+                        <p class=" story-img-caption font-weight-bold bg-orange ">IN FOCUS</p>
+                    </div>
+
+                    <div class=" card-body px-0 ">
+                        <h5 class=" card-title news-title font-weight-bolder mt-1 text-body ">Hands Up, Don’t Shoot</h5>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <!--EDITOR'S PICK-->

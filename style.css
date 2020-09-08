@@ -173,6 +173,16 @@ html {
   line-height: 18px;
 }
 
+/*--------------------------------*/
+
+/* FEATURED STORIES */
+
+@media (min-width: 768px) {
+  .featured-sticky {
+    height: 1911px;
+  }
+}
+
 /*------------------------------*/
 
 /* DEBATE SECTION */
@@ -233,6 +243,12 @@ html {
 .debate-ponent {
   color: #555;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .debate-img {
+    width: 10%;
+  }
 }
 
 /*-----------------------*/
@@ -318,9 +334,19 @@ html {
   border: none;
 }
 
+@media (min-width: 768px) {
+  .newsletter-container {
+    width: 40% !important;
+  }
+}
+
 /*-----------------*/
 
 /* NEWS SECTION */
+
+.news-title {
+  font-size: 1.5rem;
+}
 
 .news-section {
   background-color: #fff;
@@ -334,6 +360,15 @@ html {
 
 .business-block {
   color: #f72210;
+}
+
+@media (min-width: 768px) {
+  .subscribe-title {
+    font-size: 1.7rem;
+  }
+  .news-title {
+    font-size: 1.8rem;
+  }
 }
 
 /*------------------------*/
@@ -410,3 +445,5 @@ html {
 .social-media a {
   font-size: 2rem;
 }
+
+/*-----------------------*/
