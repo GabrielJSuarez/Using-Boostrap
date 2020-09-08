@@ -4,19 +4,19 @@
 
 # Using Boostrap
 
-> A clone of the 'News Week' website , fully responsive, all Javascript features will be omitted.
+> A clone of the 'News Week' website , fully responsive, using the latest version of bootstrap, Pure HTML was used to mimic some Jquery code
 
 https://www.newsweek.com/
 
-![Alt text](https://github.com/GabrielJSuarez/Building-with-Responsive-Design/blob/TNW-Clone-Feature/assets/images/screenshot.png?raw=true "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/Using-Boostrap/blob/newsweek-Clone-Feature-Branch/assetts/screenshot.png?raw=true "Screenshot")
 
 ## Built With
 
-- HTML5 / CSS3
+- HTML5 / CSS3 / Bootstrap 4
 
 ## Live Demo
 
-[Live Demo Link]( https://gabrieljsuarez.github.io/Building-with-Responsive-Design/)
+[Live Demo Link](https://gabrieljsuarez.github.io/Using-Boostrap/)
 
 
 ## Getting Started
