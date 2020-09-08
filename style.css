@@ -1,3 +1,5 @@
+/* stylelint-disable */
+
 /*STYLE SHEET */
 
 /*-----------------*/
@@ -245,7 +247,7 @@ html {
   width: 3rem;
   height: 3rem;
   margin: 0 auto;
-  background-color: #000000;
+  background-color: #000;
   color: #d6d6d6;
   font-size: 1.4rem;
   border-radius: 50%;
