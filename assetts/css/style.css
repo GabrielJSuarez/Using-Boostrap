@@ -410,13 +410,13 @@ html {
 
 @media (min-width: 768px) {
   .newsletter-container {
-    width: 40% !important;
+    width: 40%;
   }
 }
 
 @media (min-width: 1024px) {
   .newsletter-container {
-    width: 80% !important;
+    width: 80%;
   }
 }
 
@@ -510,7 +510,7 @@ html {
   .subscription-text h5,
   .subscription-text p {
     font-size: 2.2rem;
-    text-align: left !important;
+    text-align: left;
   }
 
   .subscription-text p {
@@ -545,7 +545,7 @@ html {
   }
 
   .newsletter-text p {
-    text-align: left !important;
+    text-align: left;
     font-size: 1.7rem;
   }
 }
@@ -553,7 +553,7 @@ html {
 @media (min-width: 1024px) {
   .newsletter-text h3 {
     font-size: 2.4rem;
-    width: 100% !important;
+    width: 100%;
   }
 
   .newsletter-text p {
@@ -588,7 +588,7 @@ html {
     font-size: 2.5rem;
   }
   .change-editions {
-    border-right: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6;
   }
 }
 
