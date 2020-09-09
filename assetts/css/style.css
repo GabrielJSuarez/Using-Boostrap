@@ -72,7 +72,6 @@ html {
     font-size: 1.7rem;
   }
   .login-btn {
-    border: none;
     font-weight: bold;
     margin-right: 1rem;
   }
@@ -342,10 +341,6 @@ html {
   border-bottom: none;
 }
 
-.opinion-section:last-child {
-  border: none;
-}
-
 /*--------------------------------*/
 
 /* PANTHOM SECTION */
@@ -410,13 +405,13 @@ html {
 
 @media (min-width: 768px) {
   .newsletter-container {
-    width: 40%;
+    width: 40% !important;
   }
 }
 
 @media (min-width: 1024px) {
   .newsletter-container {
-    width: 80%;
+    width: 80% !important;
   }
 }
 
@@ -510,7 +505,7 @@ html {
   .subscription-text h5,
   .subscription-text p {
     font-size: 2.2rem;
-    text-align: left;
+    text-align: left !important;
   }
 
   .subscription-text p {
@@ -545,7 +540,7 @@ html {
   }
 
   .newsletter-text p {
-    text-align: left;
+    text-align: left !important;
     font-size: 1.7rem;
   }
 }
@@ -553,7 +548,7 @@ html {
 @media (min-width: 1024px) {
   .newsletter-text h3 {
     font-size: 2.4rem;
-    width: 100%;
+    width: 100% !important;
   }
 
   .newsletter-text p {
@@ -588,7 +583,7 @@ html {
     font-size: 2.5rem;
   }
   .change-editions {
-    border-right: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6 !important;
   }
 }
 
