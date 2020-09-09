@@ -11,9 +11,8 @@ html {
 }
 
 .bg-orange {
-  background-color: #f72210 !important;
-  color: #fff !important;
-  padding: 0 0.5rem !important;
+  color: #fff;
+  padding: 0 0.5rem;
 }
 
 @media (min-width: 768px) {
@@ -32,7 +31,8 @@ html {
 /* NAVIGATION BAR */
 
 .bg-red-custom,
-.sing-up-btn {
+.sing-up-btn,
+.bg-orange {
   background-color: #f72210;
 }
 
@@ -42,12 +42,15 @@ html {
 }
 
 .menu-icons i {
-  font-size: 1.5rem;
   opacity: 0.7;
 }
 
+.btn-subscription button i,
 .btn-subscription button {
   font-size: 1rem;
+}
+
+.btn-subscription button {
   font-weight: 700;
   padding: 0.175rem 0.75rem;
   border-radius: 1rem;
@@ -55,7 +58,6 @@ html {
 }
 
 .btn-subscription button i {
-  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -88,11 +90,17 @@ html {
 
 /*NAVBAR 992px VP */
 
-.location-info {
+.location-info,
+.subscribe-title,
+.sing-up-btn,
+.editor-subtitle {
   font-size: 1.6rem;
 }
 
 @media (min-width: 992px) {
+  .nav-container {
+    margin-top: 10.5rem;
+  }
   .page-logo {
     width: 150%;
     padding-left: 5rem;
@@ -107,7 +115,14 @@ html {
 /* SEARCHBAR AND SECUNDARY NAVIGATION */
 
 .lg-navigation a,
-.lg-trending {
+.lg-trending,
+.menu-icons i,
+.top-title,
+.debate-header,
+.opinion-title,
+.top-story-title,
+.news-title,
+.newsletter-text p {
   font-size: 1.5rem;
 }
 
@@ -117,7 +132,9 @@ html {
 }
 
 .searchBar::placeholder,
-.glass-icon {
+.glass-icon,
+.subscription-text h5,
+.subscription-text p {
   font-size: 1.7rem;
 }
 
@@ -138,6 +155,28 @@ html {
 
 /* MAIN CONTENT */
 
+.main-container {
+  margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    margin-top: 17.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    margin-top: 20.5rem;
+  }
+}
+
 /* ---------------------*/
 
 /* TOP STORY */
@@ -145,12 +184,17 @@ html {
 .top-title,
 .debate-header,
 .opinion-title {
-  font-size: 1.5rem;
   color: rgba(3, 3, 3, 0.4);
 }
 
 .story-img {
   position: relative;
+}
+
+.story-img-caption,
+.business-block,
+.editor-title {
+  color: #f72210;
 }
 
 .story-img-caption {
@@ -159,7 +203,6 @@ html {
   bottom: -10px;
   padding: 0.3rem 1.5rem;
   font-size: 1.8rem;
-  color: #f72210;
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -168,7 +211,10 @@ html {
   line-height: 24px;
 }
 
-.main-title-sm {
+.main-title-sm,
+.editor-title,
+.newsletter-text h3,
+.social-media a {
   font-size: 2rem;
   line-height: 20px;
 }
@@ -214,7 +260,12 @@ html {
 }
 
 .debate-title,
-.debate-ponent {
+.debate-ponent,
+.vs-tag,
+.my-turn-title,
+.subscribe-input::placeholder,
+.subscription-text p,
+.change-editions {
   font-size: 1.4rem;
 }
 
@@ -249,7 +300,6 @@ html {
   margin: 0 auto;
   background-color: #000;
   color: #d6d6d6;
-  font-size: 1.4rem;
   border-radius: 50%;
   z-index: 1;
 }
@@ -307,18 +357,11 @@ html {
 
 /*----------------------------*/
 
-/* TOP STORIES SECTION */
-
-.top-story-title {
-  font-size: 1.5rem;
-}
-
 /* ------------------------- */
 
 /* MY TURN SECTION */
 
 .my-turn-title {
-  font-size: 1.4rem;
   color: rgba(3, 3, 3, 0.5);
 }
 
@@ -347,7 +390,6 @@ html {
 }
 
 .subscribe-title {
-  font-size: 1.6rem;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -357,14 +399,12 @@ html {
 }
 
 .subscribe-input::placeholder {
-  font-size: 1.4rem;
   color: #555;
   text-indent: 9px;
   font-weight: 500;
 }
 
 .sing-up-btn {
-  font-size: 1.6rem;
   border: none;
 }
 
@@ -384,10 +424,6 @@ html {
 
 /* NEWS SECTION */
 
-.news-title {
-  font-size: 1.5rem;
-}
-
 .news-section {
   background-color: #fff;
 }
@@ -396,10 +432,6 @@ html {
   background-color: #f72210;
   color: #fff;
   padding: 0.5rem;
-}
-
-.business-block {
-  color: #f72210;
 }
 
 @media (min-width: 768px) {
@@ -415,13 +447,7 @@ html {
 
 /* EDITOR'S PICK */
 
-.editor-title {
-  font-size: 2rem;
-  color: #f72210;
-}
-
 .editor-subtitle {
-  font-size: 1.6rem;
   line-height: 1;
 }
 
@@ -462,11 +488,6 @@ html {
 .subscription-text h5,
 .subscription-text p {
   width: 90%;
-  font-size: 1.7rem;
-}
-
-.subscription-text p {
-  font-size: 1.4rem;
 }
 
 .img-back {
@@ -518,14 +539,6 @@ html {
   background-size: cover;
 }
 
-.newsletter-text h3 {
-  font-size: 2rem;
-}
-
-.newsletter-text p {
-  font-size: 1.5rem;
-}
-
 @media (min-width: 768px) {
   .newsletter-text h3 {
     font-size: 2.5rem;
@@ -553,25 +566,18 @@ html {
 /* FOOTER */
 
 .footer-logo {
-  width: 60%;
+  width: 236px;
   fill: #f72210;
 }
 
 .change-editions {
-  font-size: 1.4rem;
   color: #666 !important;
-}
-.social-media a {
-  font-size: 2rem;
 }
 
 @media (min-width: 768px) {
-  .footer-logo {
-    width: 80%;
-  }
-
   .copyright {
     font-size: 1.6rem;
+    margin-right: auto;
   }
 
   .social-media {
