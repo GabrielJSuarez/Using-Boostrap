@@ -8,7 +8,7 @@
 
 https://www.newsweek.com/
 
-![Alt text](https://github.com/GabrielJSuarez/Using-Boostrap/blob/newsweek-Clone-Feature-Branch/assetts/screenshot.png?raw=true "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/Using-Boostrap/blob/newsweek-Clone-Feature-Branch/assetts/images/screenshot.png?raw=true "Screenshot")
 
 ## Built With
 
